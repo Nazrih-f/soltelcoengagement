@@ -58,7 +58,12 @@ export default function GameOver({ playerName, score, onTryAgain, onHome, stopAu
           <img 
             src="/finger.png" 
             alt="Pointing Finger" 
-            className="w-[180px] h-[180px] md:w-[280px] md:h-[280px] object-contain"
+            className="w-[180px] h-[180px] md:w-[280px] md:h-[280px] object-contain drop-shadow-2xl"
+            onError={(e) => {
+              // Fallback to emoji if image fails to load
+              e.target.style.display = 'none'
+              e.target.parentElement.innerHTML = '<div class="text-[180px] md:text-[280px]">👉</div>'
+            }}
           />
         </div>
         
