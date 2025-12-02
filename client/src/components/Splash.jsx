@@ -102,11 +102,7 @@ export default function Splash({ onGetStarted, onAdmin }) {
         </div>
 
         {/* Decorative text */}
-        <div className="mt-8 animate-pulse">
-          <p className="text-purple-200 text-sm">
-            ✨ Challenge yourself • Win rewards • Have fun ✨
-          </p>
-        </div>
+
       </div>
 
       {/* Footer */}
