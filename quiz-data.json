@@ -666,6 +666,26 @@
       "answers": [],
       "isWinner": false,
       "timestamp": "2025-12-02T13:59:00.470Z"
+    },
+    {
+      "id": 1764684367449,
+      "playerName": "gg",
+      "score": 0,
+      "totalQuestions": 1,
+      "percentage": 0,
+      "answers": [],
+      "isWinner": false,
+      "timestamp": "2025-12-02T14:06:07.449Z"
+    },
+    {
+      "id": 1764684380558,
+      "playerName": "ggg",
+      "score": 0,
+      "totalQuestions": 1,
+      "percentage": 0,
+      "answers": [],
+      "isWinner": false,
+      "timestamp": "2025-12-02T14:06:20.558Z"
     }
   ],
   "winners": [

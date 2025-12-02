@@ -493,11 +493,17 @@ app.get('/api/admin/stats', (req, res) => {
   }
 });
 
-// Serve audio file
+// Serve audio file (from root directory for production)
 app.get('/audio.mp3', (req, res) => {
   try {
-    const audioPath = path.join(__dirname, 'client', 'public', 'audio.mp3');
-    res.sendFile(audioPath);
+    const audioPath = path.join(__dirname, 'audio.mp3');
+    if (fs.existsSync(audioPath)) {
+      res.sendFile(audioPath);
+    } else {
+      // Fallback to client/public for local development
+      const fallbackPath = path.join(__dirname, 'client', 'public', 'audio.mp3');
+      res.sendFile(fallbackPath);
+    }
   } catch (error) {
     res.status(404).json({ error: 'Audio file not found' });
   }

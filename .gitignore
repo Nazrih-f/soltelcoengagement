@@ -32,8 +32,7 @@ Thumbs.db
 # Uploads folder (user uploaded files)
 uploads/
 
-# Large media files
-*.mp3
+# Large media files (except audio.mp3 for wrong answer sound)
 *.mp4
 *.wav
 *.avi
@@ -44,8 +43,7 @@ uploads/
 *.7z
 *.tar.gz
 
-# Keep audio in public for the app but exclude from git
-client/public/audio.mp3
+# Exclude duplicate audio files but keep the main one
 client/audio.mp3
 
 # Temporary files
