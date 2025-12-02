@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import { AlertCircle, CheckCircle, ChevronRight, HelpCircle } from 'lucide-react'
+import { useState, useEffect } from 'react'
+import { AlertCircle, CheckCircle, ChevronRight, HelpCircle, Clock } from 'lucide-react'
 
 const funnyMessages = {
   correct: [
@@ -35,6 +35,36 @@ export default function Quiz({ questions, playerName, onWin, onFail, playWrongAu
   const [showConfirmModal, setShowConfirmModal] = useState(false)
   const [pendingAnswer, setPendingAnswer] = useState(null)
   const [showCelebration, setShowCelebration] = useState(false)
+  const [timeLeft, setTimeLeft] = useState(30)
+  const [timerActive, setTimerActive] = useState(true)
+
+  // Timer countdown effect
+  useEffect(() => {
+    if (!timerActive || showFeedback || isGameOver || showConfirmModal) return
+
+    if (timeLeft <= 0) {
+      // Time's up - treat as wrong answer
+      setTimerActive(false)
+      setIsGameOver(true)
+      if (playWrongAudio) playWrongAudio()
+      setTimeout(() => {
+        onFail(score, currentQuestion + 1)
+      }, 2500)
+      return
+    }
+
+    const timer = setInterval(() => {
+      setTimeLeft(prev => prev - 1)
+    }, 1000)
+
+    return () => clearInterval(timer)
+  }, [timeLeft, timerActive, showFeedback, isGameOver, showConfirmModal])
+
+  // Reset timer when question changes
+  useEffect(() => {
+    setTimeLeft(30)
+    setTimerActive(true)
+  }, [currentQuestion])
 
   if (!questions || !questions.length) {
     return (
@@ -68,6 +98,7 @@ export default function Quiz({ questions, playerName, onWin, onFail, playWrongAu
   const handleConfirmAnswer = () => {
     setShowConfirmModal(false)
     setSelectedAnswer(pendingAnswer)
+    setTimerActive(false) // Stop timer when answer is confirmed
     
     const correct = pendingAnswer === question.correct
     setIsCorrect(correct)
@@ -113,6 +144,8 @@ export default function Quiz({ questions, playerName, onWin, onFail, playWrongAu
       setSelectedAnswer(null)
       setShowFeedback(false)
       setFeedbackMessage('')
+      setTimeLeft(30)
+      setTimerActive(true)
     }
   }
 
@@ -182,8 +215,18 @@ export default function Quiz({ questions, playerName, onWin, onFail, playWrongAu
             <p className="text-sm text-gray-600">Ciyaartoy: <span className="font-bold text-purple-600">{playerName}</span></p>
             <p className="text-xs text-gray-500">Su'aal {currentQuestion + 1} ka mid ah {totalQuestions}</p>
           </div>
-          <div className="bg-gradient-to-r from-purple-500 to-purple-600 px-4 py-2 rounded-full shadow-lg animate-pulse">
-            <span className="font-bold text-white text-lg">{score}/{totalQuestions}</span>
+          <div className="flex items-center gap-3">
+            {/* Timer */}
+            <div className={`flex items-center gap-2 px-4 py-2 rounded-full shadow-lg ${
+              timeLeft <= 10 ? 'bg-red-500 animate-pulse' : 'bg-gradient-to-r from-blue-500 to-blue-600'
+            }`}>
+              <Clock className="w-5 h-5 text-white" />
+              <span className="font-bold text-white text-lg">{timeLeft}s</span>
+            </div>
+            {/* Score */}
+            <div className="bg-gradient-to-r from-purple-500 to-purple-600 px-4 py-2 rounded-full shadow-lg">
+              <span className="font-bold text-white text-lg">{score}/{totalQuestions}</span>
+            </div>
           </div>
         </div>
 

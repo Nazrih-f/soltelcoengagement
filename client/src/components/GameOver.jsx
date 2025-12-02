@@ -53,9 +53,13 @@ export default function GameOver({ playerName, score, onTryAgain, onHome, stopAu
       {/* Center Content - NO CARD */}
       <div className="relative z-10 flex flex-col items-center justify-center text-center">
         
-        {/* BIG Pointing Finger - Using alternative emoji for better compatibility */}
-        <div className={`text-[180px] md:text-[280px] leading-none ${isAudioPlaying ? 'animate-bounce' : 'animate-float'}`} style={{ fontFamily: 'system-ui, -apple-system, sans-serif' }}>
-          👉
+        {/* BIG Pointing Finger Image */}
+        <div className={`${isAudioPlaying ? 'animate-bounce' : 'animate-float'}`}>
+          <img 
+            src="/finger.png" 
+            alt="Pointing Finger" 
+            className="w-[180px] h-[180px] md:w-[280px] md:h-[280px] object-contain"
+          />
         </div>
         
         {/* Game Over Text */}

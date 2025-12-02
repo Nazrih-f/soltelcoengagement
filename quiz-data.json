@@ -706,6 +706,16 @@
       "answers": [],
       "isWinner": false,
       "timestamp": "2025-12-02T14:18:25.392Z"
+    },
+    {
+      "id": 1764686363437,
+      "playerName": "hh",
+      "score": 0,
+      "totalQuestions": 1,
+      "percentage": 0,
+      "answers": [],
+      "isWinner": false,
+      "timestamp": "2025-12-02T14:39:23.437Z"
     }
   ],
   "winners": [
