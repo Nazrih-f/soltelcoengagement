@@ -7,6 +7,7 @@ import GameOver from './components/GameOver'
 import History from './components/History'
 import Admin from './components/Admin'
 import API_BASE_URL from './config'
+import wrongAnswerAudio from '../public/audio.mp3'
 
 export default function App() {
   const [currentScreen, setCurrentScreen] = useState('splash')
@@ -18,7 +19,7 @@ export default function App() {
 
   // Initialize audio
   useEffect(() => {
-    audioRef.current = new Audio('/audio.mp3')
+    audioRef.current = new Audio(wrongAnswerAudio)
     audioRef.current.loop = false // Don't loop - play once
     audioRef.current.volume = 0.5 // Medium volume (50%)
     
