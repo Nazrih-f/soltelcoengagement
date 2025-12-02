@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { ArrowLeft, Upload, Trash2, FileText, Users, Trophy, HelpCircle, RefreshCw, ClipboardPaste } from 'lucide-react'
+import API_BASE_URL from '../config'
 
 export default function Admin({ onBack }) {
   const [files, setFiles] = useState([])
@@ -18,7 +19,7 @@ export default function Admin({ onBack }) {
 
   const fetchFiles = async () => {
     try {
-      const response = await fetch('/api/admin/files')
+      const response = await fetch(`${API_BASE_URL}/api/admin/files`)
       const data = await response.json()
       setFiles(data.files || [])
       setTotalQuestions(data.totalQuestions || 0)
@@ -29,7 +30,7 @@ export default function Admin({ onBack }) {
 
   const fetchStats = async () => {
     try {
-      const response = await fetch('/api/admin/stats')
+      const response = await fetch(`${API_BASE_URL}/api/admin/stats`)
       const data = await response.json()
       setStats(data)
     } catch (error) {
@@ -53,7 +54,7 @@ export default function Admin({ onBack }) {
     formData.append('file', file)
 
     try {
-      const response = await fetch('/api/admin/upload', {
+      const response = await fetch(`${API_BASE_URL}/api/admin/upload`, {
         method: 'POST',
         body: formData
       })
@@ -81,7 +82,7 @@ export default function Admin({ onBack }) {
     if (!window.confirm('Are you sure you want to delete this file?')) return
 
     try {
-      const response = await fetch(`/api/admin/files/${fileId}`, {
+      const response = await fetch(`${API_BASE_URL}/api/admin/files/${fileId}`, {
         method: 'DELETE'
       })
 
@@ -103,7 +104,7 @@ export default function Admin({ onBack }) {
     if (!window.confirm('Are you sure you want to delete ALL questions? This cannot be undone!')) return
 
     try {
-      const response = await fetch('/api/admin/questions', {
+      const response = await fetch(`${API_BASE_URL}/api/admin/questions`, {
         method: 'DELETE'
       })
 
@@ -131,7 +132,7 @@ export default function Admin({ onBack }) {
     setMessage({ type: '', text: '' })
 
     try {
-      const response = await fetch('/api/admin/paste', {
+      const response = await fetch(`${API_BASE_URL}/api/admin/paste`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ text: pasteText })

@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { ArrowLeft, Trophy, Users } from 'lucide-react'
+import API_BASE_URL from '../config'
 
 export default function History({ onBack }) {
   const [attempts, setAttempts] = useState([])
@@ -14,8 +15,8 @@ export default function History({ onBack }) {
   const fetchData = async () => {
     try {
       const [attemptsRes, winnersRes] = await Promise.all([
-        fetch('/api/attempts'),
-        fetch('/api/winners')
+        fetch(`${API_BASE_URL}/api/attempts`),
+        fetch(`${API_BASE_URL}/api/winners`)
       ])
       const attemptsData = await attemptsRes.json()
       const winnersData = await winnersRes.json()

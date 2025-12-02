@@ -6,6 +6,7 @@ import Congratulations from './components/Congratulations'
 import GameOver from './components/GameOver'
 import History from './components/History'
 import Admin from './components/Admin'
+import API_BASE_URL from './config'
 
 export default function App() {
   const [currentScreen, setCurrentScreen] = useState('splash')
@@ -52,7 +53,7 @@ export default function App() {
 
   const fetchQuestions = async () => {
     try {
-      const response = await fetch('/api/questions')
+      const response = await fetch(`${API_BASE_URL}/api/questions`)
       const data = await response.json()
       setQuestions(data)
     } catch (error) {
@@ -74,7 +75,7 @@ export default function App() {
     setFinalScore(score)
     
     try {
-      await fetch('/api/attempts', {
+      await fetch(`${API_BASE_URL}/api/attempts`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -96,7 +97,7 @@ export default function App() {
     setFinalScore(score)
     
     try {
-      await fetch('/api/attempts', {
+      await fetch(`${API_BASE_URL}/api/attempts`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
