@@ -108,6 +108,14 @@ export default function Splash({ onGetStarted, onAdmin }) {
           </p>
         </div>
       </div>
+
+      {/* Footer */}
+      <div className="absolute bottom-0 left-0 right-0 py-6 text-center">
+        <p className="text-white text-xl md:text-2xl font-semibold tracking-wide">
+          © {new Date().getFullYear()} • Developed with 💜 by{' '}
+          <span className="font-black text-white text-2xl md:text-3xl">Nasri</span>
+        </p>
+      </div>
     </div>
   )
 }

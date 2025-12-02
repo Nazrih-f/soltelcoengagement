@@ -7,7 +7,7 @@ export default function GameOver({ playerName, score, onTryAgain, onHome, stopAu
   useEffect(() => {
     const timer = setTimeout(() => {
       if (stopAudio) stopAudio()
-    }, 40000) // 40 seconds
+    }, 30000) // 30 seconds
 
     return () => clearTimeout(timer)
   }, [stopAudio])
@@ -22,27 +22,27 @@ export default function GameOver({ playerName, score, onTryAgain, onHome, stopAu
     onHome()
   }
 
-  // Multiple emoji types for background
-  const emojis = ['😂', '🤣', '😹', '😆', '🙈', '🤭', '😜', '🫵', '👆', '☝️']
+  // Multiple fun emojis for background
+  const emojis = ['😆', '🤣', '😹', '🙈', '😜', '😂']
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-100 via-pink-50 to-yellow-50 flex flex-col items-center justify-between px-4 py-8 overflow-hidden relative">
+    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-pink-50 flex flex-col items-center justify-between px-4 py-8 overflow-hidden relative">
       
-      {/* Animated Background with Multiple Emojis */}
+      {/* Animated Background with Big Fun Emojis */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {[...Array(40)].map((_, i) => (
+        {[...Array(60)].map((_, i) => (
           <div
             key={i}
             className="absolute animate-float"
             style={{
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
-              animationDelay: `${Math.random() * 3}s`,
-              animationDuration: `${3 + Math.random() * 2}s`,
-              opacity: 0.5
+              animationDelay: `${Math.random() * 5}s`,
+              animationDuration: `${3 + Math.random() * 3}s`,
+              opacity: 0.7
             }}
           >
-            <span className="text-4xl md:text-5xl">{emojis[Math.floor(Math.random() * emojis.length)]}</span>
+            <span className="text-5xl md:text-6xl">{emojis[Math.floor(Math.random() * emojis.length)]}</span>
           </div>
         ))}
       </div>
@@ -50,38 +50,32 @@ export default function GameOver({ playerName, score, onTryAgain, onHome, stopAu
       {/* Top Spacer */}
       <div></div>
 
-      {/* Center Content - BIG FINGER */}
+      {/* Center Content - NO CARD */}
       <div className="relative z-10 flex flex-col items-center justify-center text-center">
-        {/* Giant Pointing Finger */}
-        <div className={`text-[180px] md:text-[250px] leading-none ${isAudioPlaying ? 'animate-bounce' : 'animate-float'}`}>
+        
+        {/* BIG Pointing Finger */}
+        <div className={`text-[180px] md:text-[280px] leading-none ${isAudioPlaying ? 'animate-bounce' : 'animate-float'}`}>
           🫵
         </div>
         
         {/* Game Over Text */}
         <h1 className="text-3xl md:text-5xl font-black text-purple-600 mt-4 animate-pulse">
-          CIYAARTA WAA DHAMAATAY!
+          CIYAARTU WAA DHAMAATAY!
         </h1>
         
         {/* Player Info */}
         <p className="text-xl md:text-2xl text-gray-700 mt-2">
-          <span className="font-bold text-orange-500">{playerName}</span>, waad ka dhacday!
+          <span className="font-bold text-orange-500">{playerName}</span>
         </p>
 
         {/* Score */}
-        <div className="mt-4 bg-white/80 backdrop-blur-sm rounded-2xl px-8 py-4 shadow-lg">
-          <p className="text-gray-500 text-sm font-semibold">DHIBCAHAAGA</p>
+        <div className="mt-4 bg-white/90 backdrop-blur-sm rounded-2xl px-8 py-4 shadow-xl">
+          <p className="text-gray-500 text-sm font-semibold">DHIBCAHAAGU</p>
           <div className="flex items-center justify-center gap-1">
             <span className="text-5xl font-black text-purple-600">{score}</span>
             <span className="text-xl text-gray-400">/10</span>
           </div>
         </div>
-
-        {/* Sound Indicator */}
-        {isAudioPlaying && (
-          <p className="text-red-500 font-bold text-lg mt-4 animate-pulse">
-            🔊 Maqal codka!
-          </p>
-        )}
       </div>
 
       {/* Bottom Buttons */}
