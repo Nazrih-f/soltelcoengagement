@@ -493,6 +493,16 @@ app.get('/api/admin/stats', (req, res) => {
   }
 });
 
+// Serve audio file
+app.get('/audio.mp3', (req, res) => {
+  try {
+    const audioPath = path.join(__dirname, 'client', 'public', 'audio.mp3');
+    res.sendFile(audioPath);
+  } catch (error) {
+    res.status(404).json({ error: 'Audio file not found' });
+  }
+});
+
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
