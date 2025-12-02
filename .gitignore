@@ -1,0 +1,62 @@
+# Dependencies
+node_modules/
+client/node_modules/
+
+# Build output
+dist/
+build/
+client/dist/
+client/build/
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.development
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Uploads folder (user uploaded files)
+uploads/
+
+# Large media files
+*.mp3
+*.mp4
+*.wav
+*.avi
+*.mov
+*.mkv
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Keep audio in public for the app but exclude from git
+client/public/audio.mp3
+client/audio.mp3
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Test files
+coverage/
+.nyc_output/
+
+# Package locks (optional - uncomment if you want to exclude)
+# package-lock.json
+# client/package-lock.json

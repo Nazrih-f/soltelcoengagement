@@ -1,0 +1,1340 @@
+{
+  "files": [
+    {
+      "id": 1764577485279,
+      "filename": "sualo iyo jawaabo.docx",
+      "storedName": "1764577484385-sualo iyo jawaabo.docx",
+      "uploadDate": "2025-12-01T08:24:45.279Z",
+      "questionCount": 0
+    },
+    {
+      "id": 1764577839582,
+      "filename": "Pasted Questions",
+      "storedName": "pasted-1764577839582",
+      "uploadDate": "2025-12-01T08:30:39.582Z",
+      "questionCount": 120
+    }
+  ],
+  "questions": [
+    {
+      "id": 1764577839569,
+      "question": "Hal-abuurkii curiyay Silsiladdii “Guba” ee qaybta hore wuxuu ahaa?",
+      "options": [
+        "Cali Dhuux",
+        "Maxamuud Giriig",
+        "Salaan Carrabey",
+        "Qamaan Bulxan"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839570,
+      "question": "Hees-hawleedka “Hobbay” badanaa waxa ay la xidhiidhaa?",
+      "options": [
+        "Beeraha",
+        "Dagaalka",
+        "Waraabinta xoolaha",
+        "Baroor-diiqda"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839571,
+      "question": "Erayga “Ayaanle” dhaqanka Soomaalida wuxuu ka dhigan yahay?",
+      "options": [
+        "Qabiil qadiimi ah",
+        "Dad caqiido gaar ah leh",
+        "Roob iyo nasiib wacan",
+        "Geesi dagaalyahan ah"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839572,
+      "question": "“Aqalka Soomaaliga” qaybta loo yaqaan \"Moqor\" waa?",
+      "options": [
+        "Meesha la seexdo",
+        "Halka martida la geeyo",
+        "Qaybta dambe ee dumarku ku nastaan",
+        "Meesha xoolaha lagu xiro"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839573,
+      "question": "Maansada Soomaaliyeed, erayga “Mirir” wuxuu tilmaamaa?",
+      "options": [
+        "Qayb gabay",
+        "Hees aroos",
+        "Eray aan qoto-dheeri lahayn (maanso hoose)",
+        "Qayb taariikheed"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839574,
+      "question": "Geedka Qudhac, Soomaalidu waxay u tixgeliyaan?",
+      "options": [
+        "Geed barako leh",
+        "Calaamad dagaal",
+        "Qoryo qalafsan",
+        "Geed aan faa’iido lahayn"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 1764577839575,
+      "question": "Sheekadii dhaqanka “Dhegdheer” xarunteedu waxay ahayd?",
+      "options": [
+        "Qandala",
+        "Ceelbuur",
+        "Baraawe",
+        "Laascaanood"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839576,
+      "question": "Kaba-qaadka dhaqanka, gabdhuhu inta badan waxaa u isticmaalaan?",
+      "options": [
+        "Dhir qurux",
+        "Qalab muusiko",
+        "Budh bir ah",
+        "Kal iyo lab aan isku ekayn"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 1764577839577,
+      "question": "Erayga “Guurti” dhaqanka wuxuu ka dhigan yahay?",
+      "options": [
+        "Dad dhalinyaro ah",
+        "Odayaal xal u raadiya muran",
+        "Ciidamo duur-joog",
+        "Rag ciyaarta dhaanto hoggaamiya"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839578,
+      "question": "Silsiladdii “Buraanburka Dheeraa” waxaa hormuud u ahayd?",
+      "options": [
+        "Caasha Luuul",
+        "Halima Godane",
+        "Xaawo Hiiraan",
+        "Sahra Axmed Jaamac"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839579,
+      "question": "Cilmiga Usul al-Fiqh, “Istishab” wuxuu ka dhigan yahay?",
+      "options": [
+        "In la raaco maslaxadda",
+        "In lagu dhaqmo caadada",
+        "In lagu dhaqmo xukunkii hore illaa daliil cusub yimaado",
+        "In la isticmaalo qiyaasta"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839580,
+      "question": "Nabigee ayaa loo bixiyay “Kaliimullah”?",
+      "options": [
+        "Nabi Ciise",
+        "Nabi Ibraahim",
+        "Nabi Muuse",
+        "Nabi Da’uud"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839581,
+      "question": "Cidda lagu magacaabo “As-Saabiqoon al-Awwaloon” waa?",
+      "options": [
+        "Quraysh",
+        "Muhaajiriintii hore",
+        "Ansaar",
+        "Taabi’iinta"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839582,
+      "question": "Xukunka qofkii ku tukada salaadda isagoo hilmaamay farta Qibla 180° ka soo horjeeda?",
+      "options": [
+        "Salaaddu waa baatil",
+        "Salaaddu waa sax",
+        "Waxaa waajib ah in uu sadaqo bixiyo",
+        "Waxaa ku waajib ah quduus"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 1764577839583,
+      "question": "Aayadda lagu magacaabo “Sayful Qur’aan” (Seefta Qur’aanka) waa?",
+      "options": [
+        "Aayatul Kursi",
+        "Aayadda kowlaysa ee Tawbah",
+        "Aayadda Noor",
+        "Aayadda Alaq"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839584,
+      "question": "Xadiis Mutawatir waxa uu leeyahay?",
+      "options": [
+        "Raawiyaal tiro yar",
+        "Raawiyaal tiro badan oo aan beenti lagu heshiin karin",
+        "Raawiyaal hal qolo ah",
+        "Xukun aan la aqbalin"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839585,
+      "question": "“Ijma’ Sukuti” waxa uu dhici karaa?",
+      "options": [
+        "Kaliya waqtigii saxaabada",
+        "Waqtiga taabi’iinta",
+        "Waqtiga Imaamyada",
+        "Ma jiro meel uu ka dhaco"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 1764577839586,
+      "question": "Salaadda Janaasada, inta Takbiir ayaa waajib ah?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839587,
+      "question": "Zakaatul-Fitr, waqtiga sunada ah waa in la bixiyo?",
+      "options": [
+        "Subaxda Ciida ka dib",
+        "Habeenka Ciida",
+        "Kahor Salaadda Ciida",
+        "10 maalmood kadib"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839588,
+      "question": "Islaamka, “Muqaasa” waa?",
+      "options": [
+        "Qiyam la aqbali karo",
+        "Nolosha aakhiro",
+        "Digin-digis",
+        "In dembi lagu qiimeeyo dambi kale oo la mid ah"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 1764577839589,
+      "question": "Caasimadda Itoobiya waa?",
+      "options": [
+        "Nairobi",
+        "Addis Ababa",
+        "Asmara",
+        "Kampala"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839590,
+      "question": "Nigeria waxay ku taal qaaradda?",
+      "options": [
+        "Yurub",
+        "Aasiya",
+        "Afrika",
+        "Australia"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839591,
+      "question": "Caasimadda Kenya waa?",
+      "options": [
+        "Mombasa",
+        "Nairobi",
+        "Garissa",
+        "Kisumu"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839592,
+      "question": "Somalia waxay leedahay caasimad?",
+      "options": [
+        "Hargeysa",
+        "Garowe",
+        "Muqdisho",
+        "Kismaayo"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839593,
+      "question": "South Africa caasimaddeedu waa?",
+      "options": [
+        "Pretoria",
+        "Durban",
+        "Cape Town",
+        "Bloemfontein"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 1764577839594,
+      "question": "Caasimadda Egypt waa?",
+      "options": [
+        "Alexandria",
+        "Cairo",
+        "Giza",
+        "Luxor"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839595,
+      "question": "Caasimadda Uganda waa?",
+      "options": [
+        "Entebbe",
+        "Kampala",
+        "Jinja",
+        "Masaka"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839596,
+      "question": "Libya caasimaddeedu waa?",
+      "options": [
+        "Benghazi",
+        "Tripoli",
+        "Sirte",
+        "Sabha"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839597,
+      "question": "Caasimadda Ghana waa?",
+      "options": [
+        "Tamale",
+        "Kumasi",
+        "Accra",
+        "Tema"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839598,
+      "question": "Eritrea waxay leedahay caasimad?",
+      "options": [
+        "Teseney",
+        "Asmara",
+        "Massawa",
+        "Keren"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839599,
+      "question": "Caasimadda Tunisia waa?",
+      "options": [
+        "Sfax",
+        "Tunis",
+        "Monastir",
+        "Tataouine"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839600,
+      "question": "Tanzania caasimaddeedu waa?",
+      "options": [
+        "Dar es Salaam",
+        "Dodoma",
+        "Arusha",
+        "Mwanza"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839601,
+      "question": "Sierra Leone caasimaddeedu waa?",
+      "options": [
+        "Gambia",
+        "Freetown",
+        "Dakar",
+        "Niamey"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839602,
+      "question": "Sudan caasimaddeedu waa?",
+      "options": [
+        "Port Sudan",
+        "Nyala",
+        "Khartoum",
+        "Juba"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839603,
+      "question": "Caasimadda Rwanda waa?",
+      "options": [
+        "Gisenyi",
+        "Kigali",
+        "Butare",
+        "Cyangugu"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839604,
+      "question": "Djibouti caasimaddeedu waa?",
+      "options": [
+        "Obock",
+        "Tadjoura",
+        "Djibouti",
+        "Dikhil"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839605,
+      "question": "Algeria caasimaddeedu waa?",
+      "options": [
+        "Oran",
+        "Algiers",
+        "Blida",
+        "Constantine"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839606,
+      "question": "Caasimadda Morocco waa?",
+      "options": [
+        "Casablanca",
+        "Rabat",
+        "Fez",
+        "Tangier"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839607,
+      "question": "Mozambique caasimaddeedu waa?",
+      "options": [
+        "Beira",
+        "Maputo",
+        "Tete",
+        "Xai-Xai"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839608,
+      "question": "Caasimadda Zimbabwe waa?",
+      "options": [
+        "Bulawayo",
+        "Harare",
+        "Mutare",
+        "Gweru"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839609,
+      "question": "Caasimadda China waa?",
+      "options": [
+        "Shanghai",
+        "Beijing",
+        "Shenzhen",
+        "Wuhan"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839610,
+      "question": "Japan caasimaddeedu waa?",
+      "options": [
+        "Osaka",
+        "Kyoto",
+        "Tokyo",
+        "Nagoya"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839611,
+      "question": "India waxay leedahay caasimad?",
+      "options": [
+        "Mumbai",
+        "Kolkata",
+        "New Delhi",
+        "Hyderabad"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839612,
+      "question": "Saudi Arabia caasimaddeedu waa?",
+      "options": [
+        "Makkah",
+        "Madinah",
+        "Riyadh",
+        "Dammam"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839613,
+      "question": "South Korea caasimaddeedu waa?",
+      "options": [
+        "Busan",
+        "Incheon",
+        "Seoul",
+        "Daegu"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839614,
+      "question": "Indonesia caasimaddeedu waa?",
+      "options": [
+        "Bali",
+        "Surabaya",
+        "Jakarta",
+        "Bandung"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839615,
+      "question": "Pakistan caasimaddeedu waa?",
+      "options": [
+        "Karachi",
+        "Lahore",
+        "Islamabad",
+        "Multan"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839616,
+      "question": "Caasimadda Iraq waa?",
+      "options": [
+        "Basra",
+        "Mosul",
+        "Baghdad",
+        "Najaf"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839617,
+      "question": "Turkey caasimaddeedu waa?",
+      "options": [
+        "Istanbul",
+        "Izmir",
+        "Ankara",
+        "Antalya"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839618,
+      "question": "Iran caasimaddeedu waa?",
+      "options": [
+        "Mashhad",
+        "Shiraz",
+        "Tehran",
+        "Tabriz"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839619,
+      "question": "Afghanistan caasimaddeedu waa?",
+      "options": [
+        "Herat",
+        "Kandahar",
+        "Kabul",
+        "Jalalabad"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839620,
+      "question": "Qatar caasimaddeedu waa?",
+      "options": [
+        "Al-Wakrah",
+        "Doha",
+        "Al-Rayyan",
+        "Dukhan"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839621,
+      "question": "UAE caasimaddeedu waa?",
+      "options": [
+        "Dubai",
+        "Abu Dhabi",
+        "Sharjah",
+        "Fujairah"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839622,
+      "question": "Jordan caasimaddeedu waa?",
+      "options": [
+        "Irbid",
+        "Karak",
+        "Amman",
+        "Aqaba"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839623,
+      "question": "Lebanon caasimaddeedu waa?",
+      "options": [
+        "Sidon",
+        "Beirut",
+        "Tripoli",
+        "Baalbek"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839624,
+      "question": "Thailand caasimaddeedu waa?",
+      "options": [
+        "Chiang Mai",
+        "Phuket",
+        "Bangkok",
+        "Pattaya"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839625,
+      "question": "Malaysia caasimaddeedu waa?",
+      "options": [
+        "Penang",
+        "Malacca",
+        "Kuala Lumpur",
+        "Johor Bahru"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839626,
+      "question": "Yemen waxay leedahay caasimad?",
+      "options": [
+        "Aden",
+        "Sana’a",
+        "Taiz",
+        "Ibb"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839627,
+      "question": "Burma (Myanmar) caasimaddeedu waa?",
+      "options": [
+        "Yangon",
+        "Mandalay",
+        "Naypyidaw",
+        "Bago"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839628,
+      "question": "Caasimadda Philippines waa?",
+      "options": [
+        "Cebu",
+        "Davao",
+        "Manila",
+        "Iloilo"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839629,
+      "question": "Caasimadda UK waa?",
+      "options": [
+        "Manchester",
+        "Liverpool",
+        "London",
+        "Birmingham"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839630,
+      "question": "France caasimaddeedu waa?",
+      "options": [
+        "Lyon",
+        "Paris",
+        "Marseille",
+        "Lille"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839631,
+      "question": "Germany caasimaddeedu waa?",
+      "options": [
+        "Munich",
+        "Berlin",
+        "Frankfurt",
+        "Hamburg"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839632,
+      "question": "Italy caasimaddeedu waa?",
+      "options": [
+        "Milan",
+        "Venice",
+        "Rome",
+        "Turin"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839633,
+      "question": "Spain waxay leedahay caasimad?",
+      "options": [
+        "Sevilla",
+        "Barcelona",
+        "Madrid",
+        "Valencia"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839634,
+      "question": "Russia caasimaddeedu waa?",
+      "options": [
+        "Kazan",
+        "Moscow",
+        "Novosibirsk",
+        "Saint Petersburg"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839635,
+      "question": "Norway caasimaddeedu waa?",
+      "options": [
+        "Bergen",
+        "Oslo",
+        "Stavanger",
+        "Trondheim"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839636,
+      "question": "Sweden waxay leedahay caasimad?",
+      "options": [
+        "Malmö",
+        "Uppsala",
+        "Goteborg",
+        "Stockholm"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 1764577839637,
+      "question": "Finland caasimaddeedu waa?",
+      "options": [
+        "Turku",
+        "Oulu",
+        "Helsinki",
+        "Tampere"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839638,
+      "question": "Caasimadda Greece waa?",
+      "options": [
+        "Sparta",
+        "Athens",
+        "Rhodes",
+        "Patras"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839639,
+      "question": "Netherlands caasimaddeedu waa?",
+      "options": [
+        "Rotterdam",
+        "Eindhoven",
+        "Amsterdam",
+        "Utrecht"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839640,
+      "question": "Belgium caasimaddeedu waa?",
+      "options": [
+        "Antwerp",
+        "Ghent",
+        "Brussels",
+        "Bruges"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839641,
+      "question": "Denmark caasimaddeedu waa?",
+      "options": [
+        "Aarhus",
+        "Odense",
+        "Copenhagen",
+        "Aalborg"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839642,
+      "question": "Poland caasimaddeedu waa?",
+      "options": [
+        "Krakow",
+        "Gdansk",
+        "Warsaw",
+        "Lodz"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839643,
+      "question": "Portugal caasimaddeedu waa?",
+      "options": [
+        "Porto",
+        "Lisbon",
+        "Faro",
+        "Braga"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839644,
+      "question": "Switzerland caasimaddeedu waa?",
+      "options": [
+        "Zurich",
+        "Geneva",
+        "Bern",
+        "Basel"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839645,
+      "question": "Austria caasimaddeedu waa?",
+      "options": [
+        "Graz",
+        "Innsbruck",
+        "Salzburg",
+        "Vienna"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 1764577839646,
+      "question": "Hungary caasimaddeedu waa?",
+      "options": [
+        "Debrecen",
+        "Szeged",
+        "Budapest",
+        "Pecs"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839647,
+      "question": "Romania caasimaddeedu waa?",
+      "options": [
+        "Cluj",
+        "Timisoara",
+        "Bucharest",
+        "Oradea"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839648,
+      "question": "Ireland caasimaddeedu waa?",
+      "options": [
+        "Cork",
+        "Galway",
+        "Dublin",
+        "Limerick"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839649,
+      "question": "USA caasimaddeedu waa?",
+      "options": [
+        "New York",
+        "Washington DC",
+        "Chicago",
+        "Boston"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839650,
+      "question": "Canada caasimaddeedu waa?",
+      "options": [
+        "Toronto",
+        "Montreal",
+        "Ottawa",
+        "Vancouver"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839651,
+      "question": "Mexico caasimaddeedu waa?",
+      "options": [
+        "Monterrey",
+        "Tijuana",
+        "Mexico City",
+        "Puebla"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839652,
+      "question": "Cuba caasimaddeedu waa?",
+      "options": [
+        "Santiago",
+        "Havana",
+        "Camagüey",
+        "Holguín"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839653,
+      "question": "Jamaica caasimaddeedu waa?",
+      "options": [
+        "Montego Bay",
+        "Kingston",
+        "Ocho Rios",
+        "Negril"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839654,
+      "question": "Panama caasimaddeedu waa?",
+      "options": [
+        "Colon",
+        "Panama City",
+        "David",
+        "Santiago"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839655,
+      "question": "Haiti waxay leedahay caasimad?",
+      "options": [
+        "Cap-Haïtien",
+        "Port-au-Prince",
+        "Jacmel",
+        "Gonaïves"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839656,
+      "question": "Costa Rica caasimaddeedu waa?",
+      "options": [
+        "Limon",
+        "Heredia",
+        "San José",
+        "Liberia"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839657,
+      "question": "Dominican Republic caasimaddeedu waa?",
+      "options": [
+        "Punta Cana",
+        "Santo Domingo",
+        "Santiago",
+        "Higüey"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839658,
+      "question": "Bahamas caasimaddeedu waa?",
+      "options": [
+        "Freeport",
+        "Nassau",
+        "Marsh Harbour",
+        "Bimini"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839659,
+      "question": "Brazil caasimaddeedu waa?",
+      "options": [
+        "Rio de Janeiro",
+        "São Paulo",
+        "Brasilia",
+        "Salvador"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839660,
+      "question": "Argentina caasimaddeedu waa?",
+      "options": [
+        "Mendoza",
+        "Rosario",
+        "Buenos Aires",
+        "Córdoba"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839661,
+      "question": "Chile waxay leedahay caasimad?",
+      "options": [
+        "Valparaiso",
+        "Santiago",
+        "Concepción",
+        "Temuco"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839662,
+      "question": "Peru caasimaddeedu waa?",
+      "options": [
+        "Arequipa",
+        "Cusco",
+        "Lima",
+        "Piura"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839663,
+      "question": "Colombia caasimaddeedu waa?",
+      "options": [
+        "Cali",
+        "Medellin",
+        "Bogotá",
+        "Barranquilla"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839664,
+      "question": "Venezuela caasimaddeedu waa?",
+      "options": [
+        "Maracaibo",
+        "Valencia",
+        "Caracas",
+        "Mérida"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839665,
+      "question": "Uruguay caasimaddeedu waa?",
+      "options": [
+        "Salto",
+        "Colonia",
+        "Montevideo",
+        "Paysandú"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839666,
+      "question": "Paraguay caasimaddeedu waa?",
+      "options": [
+        "Ciudad del Este",
+        "Encarnación",
+        "Asunción",
+        "Pilar"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839667,
+      "question": "Bolivia waxay leedahay caasimad rasmi ah?",
+      "options": [
+        "Santa Cruz",
+        "Sucre",
+        "La Paz (maamulka)",
+        "Cochabamba"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839668,
+      "question": "Ecuador caasimaddeedu waa?",
+      "options": [
+        "Guayaquil",
+        "Cuenca",
+        "Quito",
+        "Machala"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839669,
+      "question": "Australia caasimaddeedu waa?",
+      "options": [
+        "Melbourne",
+        "Sydney",
+        "Canberra",
+        "Perth"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839670,
+      "question": "New Zealand caasimaddeedu waa?",
+      "options": [
+        "Auckland",
+        "Christchurch",
+        "Wellington",
+        "Dunedin"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839671,
+      "question": "Fiji caasimaddeedu waa?",
+      "options": [
+        "Nadi",
+        "Suva",
+        "Lautoka",
+        "Levuka"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839672,
+      "question": "Papua New Guinea caasimaddeedu waa?",
+      "options": [
+        "Lae",
+        "Mount Hagen",
+        "Port Moresby",
+        "Kokopo"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839673,
+      "question": "Samoa caasimaddeedu waa?",
+      "options": [
+        "Salelologa",
+        "Falealili",
+        "Apia",
+        "Vaitele"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839674,
+      "question": "Tonga caasimaddeedu waa?",
+      "options": [
+        "Vava’u",
+        "Nuku’alofa",
+        "Neiafu",
+        "Ha’apai"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839675,
+      "question": "Vanuatu caasimaddeedu waa?",
+      "options": [
+        "Luganville",
+        "Port-Vila",
+        "Tanna",
+        "Malekula"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839676,
+      "question": "Solomon Islands caasimaddeedu waa?",
+      "options": [
+        "Gizo",
+        "Auki",
+        "Honiara",
+        "Tulagi"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839677,
+      "question": "Kiribati waxay leedahay caasimad?",
+      "options": [
+        "Betio",
+        "Bairiki (Tarawa)",
+        "Kiritimati",
+        "Abaiang"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839678,
+      "question": "Marshall Islands caasimaddeedu waa?",
+      "options": [
+        "Majuro",
+        "Ebeye",
+        "Arno",
+        "Jaluit"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 1764577839679,
+      "question": "Dunida, qaaradda ugu wayn waa?",
+      "options": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "North America"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839680,
+      "question": "Qaaradda ugu dadka badan waa?",
+      "options": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "Oceania"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839681,
+      "question": "Qaaradda ugu yar waa?",
+      "options": [
+        "Europe",
+        "Australia",
+        "Oceania",
+        "Antarctica"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839682,
+      "question": "Badwaynta ugu ballaaran waa?",
+      "options": [
+        "Atlantic",
+        "Arctic",
+        "Indian",
+        "Pacific"
+      ],
+      "correct": 3
+    },
+    {
+      "id": 1764577839683,
+      "question": "Dunida waddanka ugu dadka badan waa?",
+      "options": [
+        "China",
+        "India",
+        "USA",
+        "Indonesia"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839684,
+      "question": "Waddanka ugu dhulka balaaran waa?",
+      "options": [
+        "China",
+        "USA",
+        "Russia",
+        "Canada"
+      ],
+      "correct": 2
+    },
+    {
+      "id": 1764577839685,
+      "question": "Dunida waddanka ugu yar waa?",
+      "options": [
+        "Monaco",
+        "Vatican",
+        "Nauru",
+        "Tuvalu"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839686,
+      "question": "Webiga ugu dheer dunida waa?",
+      "options": [
+        "Amazon",
+        "Nile",
+        "Yangtze",
+        "Congo"
+      ],
+      "correct": 1
+    },
+    {
+      "id": 1764577839687,
+      "question": "Buurta ugu dheer dunida waa?",
+      "options": [
+        "Everest",
+        "K2",
+        "Kangchenjunga",
+        "Lhotse"
+      ],
+      "correct": 0
+    },
+    {
+      "id": 1764577839688,
+      "question": "Badka ugu hooseeya ee dunida waa?",
+      "options": [
+        "Atlantic",
+        "Red Sea",
+        "Dead Sea",
+        "Caspian Sea"
+      ],
+      "correct": 2
+    }
+  ]
+}
