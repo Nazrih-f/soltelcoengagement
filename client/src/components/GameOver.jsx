@@ -3,11 +3,11 @@ import { RefreshCw, Home, VolumeX } from 'lucide-react'
 
 export default function GameOver({ playerName, score, onTryAgain, onHome, stopAudio, isAudioPlaying }) {
 
-  // Auto-stop sound after 10 seconds
+  // Auto-stop sound after 40 seconds
   useEffect(() => {
     const timer = setTimeout(() => {
       if (stopAudio) stopAudio()
-    }, 10000) // 10 seconds
+    }, 40000) // 40 seconds
 
     return () => clearTimeout(timer)
   }, [stopAudio])
