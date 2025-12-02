@@ -16,16 +16,20 @@ export default function App() {
   const [isAudioPlaying, setIsAudioPlaying] = useState(false)
   const audioRef = useRef(null)
 
-  // Initialize audio
+  // Initialize audio with preload
   useEffect(() => {
     audioRef.current = new Audio(`${API_BASE_URL}/audio.mp3`)
     audioRef.current.loop = false // Don't loop - play once
     audioRef.current.volume = 0.5 // Medium volume (50%)
+    audioRef.current.preload = 'auto' // Preload audio to avoid delay
     
     // When audio ends, update state
     audioRef.current.onended = () => {
       setIsAudioPlaying(false)
     }
+    
+    // Preload the audio file
+    audioRef.current.load()
     
     return () => {
       if (audioRef.current) {
