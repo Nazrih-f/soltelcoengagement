@@ -716,6 +716,36 @@
       "answers": [],
       "isWinner": false,
       "timestamp": "2025-12-02T14:39:23.437Z"
+    },
+    {
+      "id": 1764739437192,
+      "playerName": "sss",
+      "score": 1,
+      "totalQuestions": 2,
+      "percentage": 50,
+      "answers": [],
+      "isWinner": false,
+      "timestamp": "2025-12-03T05:23:57.192Z"
+    },
+    {
+      "id": 1764739455256,
+      "playerName": "ggfgf",
+      "score": 0,
+      "totalQuestions": 1,
+      "percentage": 0,
+      "answers": [],
+      "isWinner": false,
+      "timestamp": "2025-12-03T05:24:15.256Z"
+    },
+    {
+      "id": 1764739484188,
+      "playerName": "ggg",
+      "score": 0,
+      "totalQuestions": 1,
+      "percentage": 0,
+      "answers": [],
+      "isWinner": false,
+      "timestamp": "2025-12-03T05:24:44.188Z"
     }
   ],
   "winners": [

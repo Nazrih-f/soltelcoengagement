@@ -26,7 +26,7 @@ export default function GameOver({ playerName, score, onTryAgain, onHome, stopAu
   const emojis = ['😆', '🤣', '😹', '🙈', '😜', '😂']
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-pink-50 flex flex-col items-center justify-between px-4 py-8 overflow-hidden relative">
+    <div className="min-h-screen bg-gradient-to-br from-purple-100 via-pink-50 to-orange-50 flex flex-col items-center justify-between px-4 py-8 overflow-hidden relative animate-gradient">
       
       {/* Animated Background with Big Fun Emojis */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -77,12 +77,12 @@ export default function GameOver({ playerName, score, onTryAgain, onHome, stopAu
           <span className="font-bold text-orange-500">{playerName}</span>
         </p>
 
-        {/* Score */}
-        <div className="mt-4 bg-white/90 backdrop-blur-sm rounded-2xl px-8 py-4 shadow-xl">
-          <p className="text-gray-500 text-sm font-semibold">DHIBCAHAAGU</p>
-          <div className="flex items-center justify-center gap-1">
-            <span className="text-5xl font-black text-purple-600">{score}</span>
-            <span className="text-xl text-gray-400">/10</span>
+        {/* Score Card with Gradient */}
+        <div className="mt-6 bg-gradient-to-br from-white to-purple-50 backdrop-blur-sm rounded-3xl px-10 py-6 shadow-2xl border-4 border-purple-200 animate-scaleIn">
+          <p className="text-purple-600 text-base font-bold uppercase tracking-wide">DHIBCAHAAGU</p>
+          <div className="flex items-center justify-center gap-2 mt-2">
+            <span className="text-6xl font-black bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">{score}</span>
+            <span className="text-2xl text-gray-400 font-bold">/10</span>
           </div>
         </div>
       </div>

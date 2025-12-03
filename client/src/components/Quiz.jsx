@@ -249,12 +249,15 @@ export default function Quiz({ questions, playerName, onWin, onFail, playWrongAu
         </div>
 
         {/* Progress Bar */}
-        <div className="w-full bg-gray-200 rounded-full h-4 mb-6 overflow-hidden shadow-inner">
+        <div className="w-full bg-gradient-to-r from-gray-200 to-gray-300 rounded-full h-5 mb-6 overflow-hidden shadow-lg border-2 border-gray-300">
           <div
-            className="bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 h-4 rounded-full transition-all duration-500 relative"
+            className="bg-gradient-to-r from-purple-500 via-pink-500 to-purple-600 h-full rounded-full transition-all duration-500 relative animate-gradient"
             style={{ width: `${((currentQuestion + 1) / totalQuestions) * 100}%` }}
           >
-            <div className="absolute inset-0 bg-white opacity-30 animate-shimmer"></div>
+            <div className="absolute inset-0 bg-white opacity-20 animate-shimmer"></div>
+            <div className="absolute right-2 top-1/2 transform -translate-y-1/2 text-white text-xs font-bold">
+              {Math.round(((currentQuestion + 1) / totalQuestions) * 100)}%
+            </div>
           </div>
         </div>
 

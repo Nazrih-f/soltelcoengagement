@@ -2,10 +2,10 @@ import { Trophy, Star, PartyPopper, Home, RotateCcw } from 'lucide-react'
 
 export default function Congratulations({ playerName, score, onPlayAgain, onHome }) {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-600 via-purple-500 to-pink-500 flex items-center justify-center px-4 overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-purple-600 via-pink-500 to-orange-500 flex items-center justify-center px-4 overflow-hidden animate-gradient relative">
       {/* Confetti Animation Background */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {[...Array(50)].map((_, i) => (
+        {[...Array(80)].map((_, i) => (
           <div
             key={i}
             className="absolute animate-bounce-custom"
@@ -51,13 +51,13 @@ export default function Congratulations({ playerName, score, onPlayAgain, onHome
         </div>
 
         {/* Winner Badge */}
-        <div className="bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-2xl p-6 mb-6 animate-slideInUp shadow-lg">
+        <div className="bg-gradient-to-r from-yellow-400 via-yellow-500 to-orange-400 rounded-2xl p-6 mb-6 animate-slideInUp shadow-2xl border-4 border-yellow-300">
           <p className="text-white text-lg font-semibold mb-2">You are a</p>
           <p className="text-white text-4xl font-black">WINNER! 🏆</p>
         </div>
 
         {/* Score */}
-        <div className="bg-purple-100 rounded-xl p-4 mb-6 animate-slideInUp" style={{ animationDelay: '0.1s' }}>
+        <div className="bg-gradient-to-br from-purple-100 to-pink-100 rounded-2xl p-6 mb-6 animate-slideInUp shadow-lg border-2 border-purple-200" style={{ animationDelay: '0.1s' }}>
           <p className="text-purple-600 font-semibold">Perfect Score</p>
           <p className="text-5xl font-black text-purple-600">{score}/10</p>
           <p className="text-purple-500 text-sm mt-2">All questions answered correctly!</p>

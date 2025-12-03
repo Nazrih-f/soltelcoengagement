@@ -89,17 +89,6 @@ export default function Splash({ onGetStarted, onAdmin }) {
         )}
 
         {/* Rules */}
-        <div className="mt-12 animate-slideInUp" style={{ animationDelay: '0.4s' }}>
-          <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 max-w-md mx-auto">
-            <p className="text-white font-semibold mb-2">📋 Rules:</p>
-            <ul className="text-purple-100 text-sm text-left list-disc list-inside space-y-1">
-              <li>Answer all 10 questions correctly to win</li>
-              <li>One wrong answer ends the game</li>
-              <li>Questions are randomly selected</li>
-              <li>Winners are recorded in Hall of Fame</li>
-            </ul>
-          </div>
-        </div>
 
         {/* Decorative text */}
 

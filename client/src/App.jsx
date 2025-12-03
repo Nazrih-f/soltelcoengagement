@@ -59,7 +59,10 @@ export default function App() {
     try {
       const response = await fetch(`${API_BASE_URL}/api/questions`)
       const data = await response.json()
-      setQuestions(data)
+      
+      // Randomize questions order
+      const shuffled = [...data].sort(() => Math.random() - 0.5)
+      setQuestions(shuffled)
     } catch (error) {
       console.error('Failed to fetch questions:', error)
     }
