@@ -90,6 +90,14 @@ export default function Congratulations({ playerName, score, onPlayAgain, onHome
             Home
           </button>
         </div>
+
+        {/* Footer */}
+        <div className="mt-8 pt-6 border-t border-gray-200 animate-fadeIn" style={{ animationDelay: '0.5s' }}>
+          <p className="text-gray-600 text-sm">
+            Developed with <span className="text-red-500 animate-pulse">💜</span> by{' '}
+            <span className="font-bold text-yellow-600">Nasri</span>
+          </p>
+        </div>
       </div>
     </div>
   )

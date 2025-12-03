@@ -331,6 +331,14 @@ export default function Quiz({ questions, playerName, onWin, onFail, playWrongAu
             <ChevronRight className="w-6 h-6" />
           </button>
         )}
+
+        {/* Footer */}
+        <div className="mt-6 text-center">
+          <p className="text-gray-500 text-xs">
+            Developed with <span className="text-red-500">💜</span> by{' '}
+            <span className="font-bold text-purple-600">Nasri</span>
+          </p>
+        </div>
       </div>
     </div>
   )

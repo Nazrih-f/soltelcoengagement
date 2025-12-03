@@ -115,6 +115,14 @@ export default function GameOver({ playerName, score, onTryAgain, onHome, stopAu
             Jooji Codka
           </button>
         )}
+
+        {/* Footer */}
+        <div className="mt-4 text-center">
+          <p className="text-gray-600 text-sm">
+            Developed with <span className="text-red-500 animate-pulse">💜</span> by{' '}
+            <span className="font-bold text-yellow-600">Nasri</span>
+          </p>
+        </div>
       </div>
     </div>
   )
